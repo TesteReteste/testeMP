@@ -53,24 +53,10 @@ Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0)
 
 ![ScreenshotBD](https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg =20x20)
 
-<img src="https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg" alt="drawing" width="720"/>
-
-<img src="https://github.com/TesteReteste/testeMP/blob/main/BD_Relacionamentos_Sqlite.jpg" alt="drawing" width="720"/>
-
-
-Para a visualização dos relacionamentos das tabelas do banco de dados sqlite, foi utilizado o software DBeaver (versão 7.3.3):
 
 
 
 
-
-
-
-
-
-
-
-E caso tenha mais afinidade, será deixado o script para geração do banco e tabelas no Microsoft SQL Server Management Studio) junto ao projeto, na pasta scripts:
 
 
 
@@ -90,7 +76,13 @@ O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 # Demonstração
 
 
+Para a visualização dos relacionamentos das tabelas do banco de dados sqlite, foi utilizado o software DBeaver (versão 7.3.3):
 
+<img src="https://github.com/TesteReteste/testeMP/blob/main/BD_Relacionamentos_Sqlite.jpg" alt="drawing" width="720"/>
+
+E caso tenha mais afinidade, será deixado o script para geração do banco e tabelas no Microsoft SQL Server Management Studio) junto ao projeto, na pasta scripts:
+
+<img src="https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg" alt="drawing" width="720"/>
 
 
 ![ScreenshotBD](https://github.com/renanegobbi/App/blob/master/github/BD.png)
