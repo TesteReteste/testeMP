@@ -79,11 +79,6 @@ E caso use a conexão de string para geração do banco e tabelas no Microsoft S
 <img src="https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg" alt="drawing" width="720"/>
 
 
-![ScreenshotBD](https://github.com/renanegobbi/App/blob/master/github/BD.png)
-
-![TelaApp](https://github.com/renanegobbi/App/blob/master/github/screenshot1.png)
-
-
 PASSO 2
 
 # Como usar
