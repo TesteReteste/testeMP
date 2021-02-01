@@ -47,8 +47,11 @@ Foram baixados os pacotes que fazem parte, via Nuget:
 - Install Microsoft.EntityFrameworkCore.Relational (3.1.0)                                          
 - Install Microsoft.EntityFrameworkCore.SqlServer (3.1.0) [Caso queira construir num banco sql server]                        
 - Install Microsoft.EntityFrameworkCore.Tools (3.1.0) [Caso queira construir num banco sql server]                             
-- Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0)                                               
+- Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0) 
+- Install Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer (4.2.0)
 
+Ao rodar o projeto MenorPreco.Api, o banco de dados será criado automaticamento com o nome definido na conexão de string.
+Serão criados três arquivos na pasta raiz do projeto MenorPreco.Api (MenorPreco.db, MenorPreco.db-shm e MenorPreco.db-wal)
 
 2 - O segundo passo foi criar uma rota (GET /v1/importar).                            
 *`Lembrando de ajustar os dados na tabela antes de enviar o arquivo .csv pela rota, como descrito anteriormente.`*
