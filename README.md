@@ -42,6 +42,15 @@ O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 # Demonstração
 
+
+Neste projeto, serão importadas planilhas de forma dinâmica para o banco de dados. Dessa forma, é importante que a planilha siga o seguinte padrão, antes de enviá-la pela rota descrita no tópico sobre o projeto:
+
+- Será enviada na ordem com os seguintes campos
+
+COD_GTIN	DAT_EMISSAO	COD_TIPO_PAGAMENTO	COD_PRODUTO	COD_NCM	COD_UNIDADE	DSC_PRODUTO	VLR_UNITARIO	ID_ESTABELECIMENTO	NME_ESTABELECIMENTO	NME_LOGRADOURO	COD_NUMERO_LOGRADOURO	NME_COMPLEMENTO	NME_BAIRRO	COD_MUNICIPIO_IBGE	NME_MUNICIPIO	NME_SIGLA_UF	COD_CEP	NUM_LATITUDE	NUM_LONGITUDE
+
+
+
 ![ScreenshotBD](https://github.com/renanegobbi/App/blob/master/github/BD.png)
 
 ![TelaApp](https://github.com/renanegobbi/App/blob/master/github/screenshot1.png)
