@@ -22,7 +22,7 @@ Uma API (REST/JSON), usando ASP.NET Core 3.1, para consulta e recuperação de p
 # Sobre o projeto
 
 Este é um projeto básico de uma API (REST/JSON) para consulta e recuperação de produtos, filtrada pelo código GTIN (EAN) e ordenada de forma crescente pelo preço.
-A base de dados será importada através de uma rota (GET /v1/produtos) e preenchida no banco de dados de forma automática.
+A base de dados será importada através de uma rota (GET /v1/produtos) e preenchida no banco de dados de forma automática.                                            
 *`OBS: Assim que importar o novo arquivo, pela rota, os dados que constam anteriormente nas tabelas do banco de dados serão substituídos pelo novo arquivo!`*
 
 A consulta para obter os produtos contidos no banco de dados, passando como parâmetro um valor GTIN, será realizada através da rota (GET /v1/produtos/).
