@@ -37,6 +37,13 @@ Neste projeto, serão importadas planilhas de forma dinâmica para o banco de da
 
 ![Template](https://github.com/TesteReteste/testeMP/blob/main/GG/TemplateCSV.png)
                                               
+                                              
+Resumidamente, foram seguindos os seguintes passos:
+
+1 - Criação do modelo de dados utilizando o banco de dados sqlite.
+
+
+                                              
 
 # Tecnologias e ferramentas
 
