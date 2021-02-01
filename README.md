@@ -46,7 +46,7 @@ O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 Neste projeto, serão importadas planilhas de forma dinâmica para o banco de dados. Dessa forma, é importante que a planilha siga o seguinte padrão, antes de enviá-la pela rota descrita no tópico sobre o projeto:
 
 - Será enviada na ordem com os seguintes campos
-
+*`Obs: Evite preencher os campos com símbolos de potência, pois este código não interpretará os símbolos.`*
 
 ![Template](https://github.com/TesteReteste/testeMP/blob/main/GG/TemplateCSV.png)
 
