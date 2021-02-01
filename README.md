@@ -50,28 +50,11 @@ Foram baixados os pacotes que fazem parte, via Nuget:
 - Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0) 
 - Install Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer (4.2.0)
 
-Ao rodar o projeto MenorPreco.Api, o banco de dados será criado automaticamento com o nome definido na conexão de string.
+Ao rodar o projeto MenorPreco.Api, o banco de dados será criado automaticamento com o nome definido na conexão de string.                                     
 Serão criados três arquivos na pasta raiz do projeto MenorPreco.Api (MenorPreco.db, MenorPreco.db-shm e MenorPreco.db-wal)
 
 2 - O segundo passo foi criar uma rota (GET /v1/importar).                            
 *`Lembrando de ajustar os dados na tabela antes de enviar o arquivo .csv pela rota, como descrito anteriormente.`*
-
-
-
-
-
-
-![ScreenshotBD](https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg =20x20)
-
-
-
-
-
-
-
-
-
-E caso tenha mais afinidade, será deixado o script para geração do banco e tabelas no Microsoft SQL Server Management Studio) junto ao projeto, na pasta scripts:
                                               
 
 # Tecnologias e ferramentas
@@ -85,6 +68,7 @@ O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 # Demonstração
 
+PASSO 1
 
 Para a visualização dos relacionamentos das tabelas do banco de dados sqlite, foi utilizado o software DBeaver (versão 7.3.3):
 
@@ -99,6 +83,8 @@ E caso use a conexão de string para geração do banco e tabelas no Microsoft S
 
 ![TelaApp](https://github.com/renanegobbi/App/blob/master/github/screenshot1.png)
 
+
+PASSO 2
 
 # Como usar
 
