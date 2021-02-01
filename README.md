@@ -43,11 +43,11 @@ Resumidamente, foram seguindos os seguintes passos:
 1 - Criação do modelo de dados utilizando o banco de dados sqlite.
 A criação do modelo se deu pelo uso do EF (Entity Framework) Core, um mapeador relacional de objeto (O/RM).
 Foram baixados os pacotes que fazem parte, via Nuget:                                                                   
-Instalar Microsoft.EntityFrameworkCore (3.1.0)                                   
-Install Microsoft.EntityFrameworkCore.Relational (3.1.0)                                          
-Install Microsoft.EntityFrameworkCore.SqlServer (3.1.0) [Caso queira construir num banco sql server]                        
-Install Microsoft.EntityFrameworkCore.Tools (3.1.0) [Caso queira construir num banco sql server]                             
-Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0)                                               
+- Instalar Microsoft.EntityFrameworkCore (3.1.0)                                   
+- Install Microsoft.EntityFrameworkCore.Relational (3.1.0)                                          
+- Install Microsoft.EntityFrameworkCore.SqlServer (3.1.0) [Caso queira construir num banco sql server]                        
+- Install Microsoft.EntityFrameworkCore.Tools (3.1.0) [Caso queira construir num banco sql server]                             
+- Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0)                                               
 
 
 2 - O segundo passo foi criar uma rota (GET /v1/importar).                            
