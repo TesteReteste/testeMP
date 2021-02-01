@@ -45,6 +45,7 @@ A criação do modelo se deu pelo uso do EF (Entity Framework) Core, um mapeador
 Foram baixados os pacotes que fazem parte, via Nuget:
 Instalar Microsoft.EntityFrameworkCore (3.1.0)
 install Microsoft.EntityFrameworkCore.Relational (3.1.0)
+install Microsoft.EntityFrameworkCore.SqlServer (3.1.0) [Caso queira construir num banco sql server]
 
 Para a visualização dos relacionamentos das tabelas do banco de dados sqlite, foi utilizado o software DBeaver (versão 7.3.3):
 
