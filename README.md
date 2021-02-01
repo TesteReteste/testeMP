@@ -27,7 +27,7 @@ A base de dados será importada através de uma rota (GET /v1/produtos) e preenc
 *`OBS: Assim que importar o novo arquivo, pela rota, os dados que constam anteriormente nas tabelas do banco de dados serão substituídos pelo novo arquivo!`*
 
 A consulta para obter os produtos contidos no banco de dados, passando como parâmetro um valor GTIN, será realizada através da rota (GET /v1/produtos/).
-Esta rota terá o seguinte comportamento, caso não seja passado o parâmetro:
+Esta rota terá o seguinte comportamento, caso não seja passado o parâmetro:                                                                             
 -> Retornará resposta 400 (Bad Request);
 -> Caso o produto não exista, retornará 404 (Not Found).
 
