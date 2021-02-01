@@ -29,15 +29,11 @@ A consulta para obter os produtos contidos no banco de dados, passando como par�
 Esta rota terá o seguinte comportamento, caso não seja passado o parâmetro:                                                                             
 -> Retornará resposta 400 (Bad Request);                                                                                                    
 -> Caso o produto não exista, retornará 404 (Not Found).                                                                           
-
-
-aplicação utilizando o padrão *`MVC`*, criando uma WebAPI, usando o [asp.net core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1).
-É utilizado um padrão que define um conjunto de práticas para criar e consumir a Web APIs, conhecido como [OData](https://docs.microsoft.com/en-us/odata/) (Open Data Protocol). Por meio das conveções da URL do OData, pode-se expor uma API, tornando-a mais flexível e fácil para consultas específicas, requisitadas pelo cliente da API.                                              
-A API fará conexão com um banco de dados, o [SQL Server](https://www.microsoft.com/pt-br/sql-server/), com sua estrutura criada e populada previamente.
+                                              
 
 # Tecnologias e ferramentas
 
-O projeto foi desenvolvido com as seguintes tecnologias:
+O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 - [Visual Studio 2019](#Pré-requisitos)
 - [.NET Core 3.1 LTS](#Pré-requisitos)
