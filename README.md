@@ -41,6 +41,27 @@ Neste projeto, serão importadas planilhas de forma dinâmica para o banco de da
 Resumidamente, foram seguindos os seguintes passos:
 
 1 - Criação do modelo de dados utilizando o banco de dados sqlite.
+A criação do modelo se deu pelo uso do EF (Entity Framework) Core, um mapeador relacional de objeto (O/RM).
+Foram baixados os pacotes que fazem parte, via Nuget:
+Instalar Microsoft.EntityFrameworkCore (3.1.0)
+install Microsoft.EntityFrameworkCore.Relational (3.1.0)
+
+Para a visualização dos relacionamentos das tabelas do banco de dados sqlite, foi utilizado o software DBeaver (versão 7.3.3):
+
+
+
+
+
+
+
+
+
+
+
+E caso tenha mais afinidade, será deixado o script para geração do banco e tabelas no Microsoft SQL Server Management Studio) junto ao projeto, na pasta scripts:
+
+
+
 
 
                                               
