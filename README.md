@@ -50,7 +50,7 @@ Foram baixados os pacotes que fazem parte, via Nuget:
 - Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0) 
 - Install Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer (4.2.0)
 
-Ao rodar o projeto MenorPreco.Api, o banco de dados será criado automaticamento com o nome definido na conexão de string.                                     
+Ao rodar o projeto MenorPreco.Api, o banco de dados será criado automaticamento com o nome definido na string de conexão.                                     
 Serão criados três arquivos na pasta raiz do projeto MenorPreco.Api (MenorPreco.db, MenorPreco.db-shm e MenorPreco.db-wal)
 
 2 - O segundo passo foi criar uma rota (GET /v1/importar).                            
