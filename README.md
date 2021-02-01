@@ -50,6 +50,13 @@ Install Microsoft.EntityFrameworkCore.Tools (3.1.0) [Caso queira construir num b
 Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0)                                               
 
 
+2 - O segundo passo foi criar uma rota (GET /v1/importar).                            
+*`Lembrando de ajustar os dados na tabela antes de enviar o arquivo .csv pela rota, como descrito anteriormente.`*
+
+
+
+
+
 
 ![ScreenshotBD](https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg =20x20)
 
