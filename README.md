@@ -1,5 +1,5 @@
 # MenorPreco
-Uma Api usando ASP.NET Core 3.1 que disponibiliza dados importados de um arquivo com extensão .CSV.
+Uma API (REST/JSON), usando ASP.NET Core 3.1, para consulta e recuperação de produtos.  
 
 <h4 align="center"> 
   <a href="#sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
