@@ -55,6 +55,9 @@ Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0)
 
 <img src="https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg" alt="drawing" width="720"/>
 
+<img src="https://github.com/TesteReteste/testeMP/blob/main/BD_Relacionamentos_Sqlite.jpg" alt="drawing" width="720"/>
+
+
 Para a visualização dos relacionamentos das tabelas do banco de dados sqlite, foi utilizado o software DBeaver (versão 7.3.3):
 
 
