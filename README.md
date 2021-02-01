@@ -86,6 +86,17 @@ A primeira linha, que contém a descrição de cada coluna será ignorada quando
 
 ![Example](https://github.com/TesteReteste/testeMP/blob/main/GG/Gif_Post.gif)
 
+
+PASSO 3
+
+A rota (GET /v1/produtos) receberá como parâmetro um código GTIN.
+
+
+
+PASSO 4 
+
+Incluindo a url do Google Maps no retorno dos produtos pesquisado pelo código GTIN, contendo o endereço do estabelecimento.
+
 # Como usar
 
 Instalar a API chamada NewtonSoft, para trabalhar com JSON. A instalação da API pode ser via Nuget ou usando o comando via console:                 
