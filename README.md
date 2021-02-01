@@ -81,6 +81,11 @@ E caso use a conexão de string para geração do banco e tabelas no Microsoft S
 
 PASSO 2
 
+O arquivo é enviado pela rota (POST /v1/importar) e os dados são inseridos automaticamente. Atentar-se para a ordem das colunas e pela formatação dos dados!
+A primeira linha, que contém a descrição de cada coluna será ignorada quando os dados forem inseridos no banco.
+
+![Example](https://github.com/TesteReteste/testeMP/blob/main/GG/Gif_Post.gif)
+
 # Como usar
 
 Instalar a API chamada NewtonSoft, para trabalhar com JSON. A instalação da API pode ser via Nuget ou usando o comando via console:                 
