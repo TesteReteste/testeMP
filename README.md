@@ -61,7 +61,7 @@ Install Microsoft.EntityFrameworkCore.Sqlite (3.1.0)
 
 
 
-
+E caso tenha mais afinidade, será deixado o script para geração do banco e tabelas no Microsoft SQL Server Management Studio) junto ao projeto, na pasta scripts:
                                               
 
 # Tecnologias e ferramentas
@@ -80,7 +80,7 @@ Para a visualização dos relacionamentos das tabelas do banco de dados sqlite, 
 
 <img src="https://github.com/TesteReteste/testeMP/blob/main/BD_Relacionamentos_Sqlite.jpg" alt="drawing" width="720"/>
 
-E caso tenha mais afinidade, será deixado o script para geração do banco e tabelas no Microsoft SQL Server Management Studio) junto ao projeto, na pasta scripts:
+E caso use a conexão de string para geração do banco e tabelas no Microsoft SQL Server Management Studio, abaixo estará a imagem do relacionamento:
 
 <img src="https://github.com/TesteReteste/testeMP/blob/main/GG/BD_Relacionamentos.jpg" alt="drawing" width="720"/>
 
